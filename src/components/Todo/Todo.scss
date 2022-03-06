@@ -1,0 +1,39 @@
+.card-custom {
+  padding: 15px;
+  border: 2px solid orange;
+  background: rgba(119, 114, 111, 0.685);
+  border-radius: 6px;
+
+  .title {
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background: rgb(102, 167, 102);
+    .title {
+      color: black;
+    }
+  }
+
+  .value {
+    color: white;
+  }
+
+  .action {
+    border-radius: 10px;
+    background-color: rgba(85, 134, 81, 0.733);
+
+    button {
+      border-radius: 10px;
+      border: unset;
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
